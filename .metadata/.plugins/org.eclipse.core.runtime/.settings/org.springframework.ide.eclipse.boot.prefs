@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.websocket=1
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=WebSocketChatApp
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=3.0.3
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=project for Spring Boot web Socket
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.vijay
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=17
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=WebSocketChatApp
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.vijay.websocket
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=jar
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.initializr.url=https\://start.spring.io\n

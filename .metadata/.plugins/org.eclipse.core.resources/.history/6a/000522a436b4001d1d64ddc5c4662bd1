@@ -1,0 +1,5 @@
+package com.vijay.websocket.config;
+
+public class Configure {
+
+}

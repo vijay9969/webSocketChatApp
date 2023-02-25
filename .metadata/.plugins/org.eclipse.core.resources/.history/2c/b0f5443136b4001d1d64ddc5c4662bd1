@@ -1,0 +1,5 @@
+package com.vijay.websocket.controller;
+
+public class MessaegController {
+
+}

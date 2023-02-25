@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Room</title>
+    <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="/webjars/jquery/jquery.min.js"></script>
+    <script src="/webjars/sockjs-client/sockjs.min.js"></script>
+    <script src="/webjars/stomp-websocket/stomp.min.js"></script>
+    <script src="./script.js"></script>
+</head>
+<body class="bg-secondary">
+    <div id="name-from" class="bg-secondary d-flex align-items-center">
+
+<div class="container-fluid">
+    <div class="row">
+        <div style="display: flex;" class="col-md-4 offset-md-4">
+            <div class="input-group">
+                <input type="text" id="name-value" class="form-control" placeholder="Enter your name">
+            <div class="input-group-append">
+                <button style="margin-left: 5px;" class="btn btn-dark" id="login">Enter</button>
+            </div>
+            </div>
+        </div> 
+    </div>
+
+
+</div>
+
+    </div>
+    <div id="chat-room" class="d-none">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="card mt-3">
+                        <div class="card-header">
+                            <h3 id="name-title">
+
+                            </h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="input-group">
+                                <input type="text" id="message-value" class="form-control" autofocus placeholder="Enter your message">
+                            <div class="input-group-append">
+                                <button style="margin-left: 5px;" class="btn btn-dark" id="send">Send</button>
+                                <button id="logout" class="btn btn-dark">
+                                    Logout
+                                </button>
+                            </div>
+                            </div>
+                            <div class="table-responsive">
+                                <table id="meassage-container-table">
+    
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
