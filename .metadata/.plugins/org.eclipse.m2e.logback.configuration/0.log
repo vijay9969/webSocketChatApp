@@ -722,3 +722,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:p
 2023-02-24 20:06:52,363 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-02-24 20:06:52,363 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2023-02-24 20:06:52,364 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VIJAY\Desktop\webSocketChatApp\WebSocketChatApp\src\test\resources
+2023-02-25 09:21:37,471 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
